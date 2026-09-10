@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = cv2.imread("road.jpg")
+image = cv2.imread("Road.webp")
 if image is None:
     raise FileNotFoundError("road.jpg not found")
 
